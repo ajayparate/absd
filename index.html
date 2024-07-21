@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="p1">Ajay</div>
+    <div id="p2">Parate</div>
+    
+    <div id="a1">more</div> 
+
+
+
+    <script>
+        document.getElementById("p1").innerHTML = 'Welcome to JS Training';
+        document.getElementById("p2").innerHTML = 'How are You';
+        //instructions are always terminated by semicolon(;)
+        //(=parenthesis start  )= parenthesis close
+        /*
+        Arithmatic Operation
+
+        */
+       console.log( 15 + 12 );
+       console.log(5*3);
+       console.log(0*0);
+       console.log(0/0);
+       console.log(5-4);
+       console.log(3*569*9*9/888);
+       /*
+       what are variables?
+       variables is like bucket
+       bucket is used to hold items
+       similarly variables is used to hold values
+       Numbers and String
+       var x= 10;
+       var y=20;
+       */
+      var x=20;
+      var y=25;
+      console.log(x+y);
+      var z=x+y;
+      console.log(z);
+      var z=x*y;
+      console.log(z);
+      var z = x/y;
+      console.log(z);
+      var z = x%y;
+      console.log(z);
+      /*
+      . = member selection operator
+      = = Assignement operator
+                left = right
+                left<- right  (assign from right to left)
+      */
+     document.getElementById('a1').innerHTML = "Welcome"
+     /*
+     var is a reserved keyword, you cannot create a variable
+     javascript has 63 reserved keyword.
+    Associativity for = is always start from right to left e.g. var c=9 which means 9 is stored in c which is present in memory named as c.
+    every variable has its own memory capture when you declare while programming.
+    javascript built in data types
+    int = 4 bytes;
+
+     */
+    x = 10;
+    console.log(x);
+    let x1 = 90;
+    console.log(x1);
+    let z1 = a= 65;    //variable declaration
+    //z = a;
+    //when you have more than opearator  is known as Presedence of operator
+
+    z = x1+y; //expression(Programing)= Equation(maths)
+    console.log(z);
+    console.log(z+a);
+    /*
+    Bodmas rule = humans(general Math)
+    Precedense of operator = Computer/programming
+    */
+   const a = 80;
+   const b = 90;
+   a+=a;
+   console.log(a);
+   
+    </script>
+    
+</body>
+</html>
